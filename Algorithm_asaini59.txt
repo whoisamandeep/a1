@@ -1,0 +1,22 @@
+Assigment 1 checkpoint 1:
+The purpose of this assignment is to create a python script  which consist different kind of functions to print output for date of birth. It will also check if the given year is leap or not and also invalid dates and entries entered by user.. The script will be created under the name a1_asaini59.py.
+leap year(): This will look for leap year if the year entered is leap year then it will print true else false.
+sanitize(); this will sanitize the first obj and take the second object as the allowed integers and this will remove first object letters not in the second string.
+size check(); this function will check size if it the size is under defined size then status will be true if not then status will be false.
+range check(): this will check range for if the result is in defined range then print true if not then it will print false
+ usage(): this will print the usage of the script if someone used the script wrong.
+Step 1: In step 1 "if" will check the given argument is equal to 2 or not, if it is not equal then "usage function" will be called.
+Step 2:
+Script will continue if 2 arguments are created. After that two arrays will be created one is  called "month_name" will created which will store the name of all months From january to December. and second is "days_in_month" which will store the days of months for example, is i choose january it will store like {1:31}. The first argument in th emodule will store in variable of "user_raw_date".
+Step 3:
+"allow_char" allowed to declare variable. After that sanitize(user_raw_data, allow_chars) will run and check the output of variable of "dob" and then print the result "Sanitized user data:, dob".
+Step 4:
+ In step 4, it check if the result is equal to size_check(dob,8), if not it will display "Error 09: wrong data entered" and exit. Step 5 if the previous step is true then it create dob integer with  year, month, day.
+Step 6:
+In this step, it will check if the given date is in the range or not, it will check year from (1900,9999) month from (1,12) and also check if the given year is leap or not. If 
+the given argument is false it will display print("Error 10: year out of range, must be 1900 or later") for year, print("Error 02: Wrong month entered") for months, and for day print("Error 03: wrong day entered").
+Step 7:
+In step 7 new format "mmm dd, yyyy" is created for the "new_dob"
+ 
+Step 8:
+print("Your date of birth is:", new_dob) will display the date of birth 
